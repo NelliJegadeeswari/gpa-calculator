@@ -20,5 +20,6 @@ Very useful for calculating semester GPA.
 - CSS  
 - JavaScript  
 
-## 📎 Live Demo
-[Link will be added after deploying GitHub Pages]
+📎 Live Demo
+
+[Open GPA Calculator](https://nellijegadeeswari.github.io/gpa-calculator/)
