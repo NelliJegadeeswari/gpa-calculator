@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GPA Calculator</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: auto; padding: 20px; }
+        input, button { margin: 10px 0; padding: 8px; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <h2>GPA Calculator</h2>
+
+    <form id="gpa-form">
+        <div id="subjects-container">
+            <div class="subject">
+                <input type="text" placeholder="Subject Name" class="subject-name" required />
+                <input type="number" placeholder="Credit Hours (e.g. 3)" class="credit-hours" required min="1" />
+                <input type="text" placeholder="Grade (A/B/C/D/F)" class="grade" required maxlength="2"/>
+            </div>
+        </div>
+
+        <button type="button" onclick="addSubject()">➕ Add Another Subject</button><br>
+
+        <button type="submit">Calculate GPA</button>
+    </form>
+
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
